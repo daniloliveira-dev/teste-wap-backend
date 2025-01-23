@@ -1,0 +1,279 @@
+{
+	"info": {
+		"_postman_id": "7041ae47-373f-4b83-b692-5b56cf5aebe3",
+		"name": "Teste-wap-backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22902011"
+	},
+	"item": [
+		{
+			"name": "Stores",
+			"item": [
+				{
+					"name": "Buscar todas lojas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost/api/store/index",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"store",
+								"index"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar uma loja",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost/api/store/show/2",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"store",
+								"show",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Criar nova loja",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"\",\r\n    \"postal_code\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost/api/store/store/",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"store",
+								"store",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar Loja",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost/api/store/update/1",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"store",
+								"update",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Loja",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost/api/store/delete/1",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"store",
+								"delete",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Address",
+			"item": [
+				{
+					"name": "Buscar todos endereços",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost/api/address/index/",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"address",
+								"index",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar um endereço",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost/api/address/show/2",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"address",
+								"show",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Novo Endereço",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"postal_code\": \"01001000\",\r\n    \"street_number\": \"1000\",\r\n    \"complement\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost/api/address/store/",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"address",
+								"store",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar endereço",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"postal_code\":\"\",\r\n    \"street_number\":\"\",\r\n    \"complement\":\"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost/api/address/update/1",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"address",
+								"update",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar Endereço",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost/api/address/delete/1",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"api",
+								"address",
+								"delete",
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
