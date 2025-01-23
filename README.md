@@ -7,15 +7,13 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## Sobre o Projeto
+# Sobre o Projeto
 
 Projeto Desenvolvido com fins de apresentar uma aplicação back-end desenvolvida como teste para empresa MundoWap porém ao invés de utilizar o framework CakePHP, utilizamos o framework Laravel
 
 Deixaremos os requisitos propostos pela empresa no projeto em questão e a Collection das API's desenvolvidas.
 
+## Collection inclusa: Teste-wap-backend.postman_collection.json
 
-<a href='Teste_-_PHP_Dev_Junior.pdf'>
+<a href="https://drive.google.com/drive/folders/1Poe8xZh16rb8u1Uf26RvpNevnD3C66t2">
 <h2>Requisitos do teste</h2>
-
-<a href="Teste-wap-backend.postman_collection.json">
-<h2>Collection</h2>
